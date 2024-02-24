@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+ul.nav-bar {
+            background-color: #D3D3D3;
+            padding: 10px;
+            list-style-type: none; /* Remove bullets */
+        }
+
+        ul.nav-bar li {
+            display: inline; /* Display items horizontally */
+            margin-right: 1rem; /* Add spacing between items */
+        }
+
+        ul.nav-bar a {
+            text-decoration: none; /* Remove underlines from links */
+            color: #333;
+		}
